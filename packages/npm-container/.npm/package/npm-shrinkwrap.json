@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "mustache": {
+      "version": "2.2.0"
+    }
+  }
+}

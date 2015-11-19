@@ -1,0 +1,23 @@
+<head>
+  <title>study</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  <form class="answer">
+      <input type="text" name="text" placeholder="Type your answer here!" />
+  </form>
+  <ul>
+    {{#each answers}}
+    {{> answer}}
+    {{/each}}
+  </ul>
+</body>
+
+<template name="answer">
+    <li>{{answer}}</li>
+</template>
+
+<template name="testText">
+    {{testText}}
+</template>
